@@ -1,3 +1,30 @@
+Self-Study/Essay Questions
+Demonstrate your understanding of this week's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
+
+ Explain the difference between Relational Databases and SQL.
+
+The data is seperated into different tables that can be realated via forien keys and "join"
+
+ Why do tables need a primary key?
+
+ So there is a variable that can always be used to identify the data and cannot be repaeted.
+
+ What is the name given to a table column that references the primary key on another table.
+
+ forien key
+
+ What do we need in order to have a many to many relationship between two tables.
+
+ a midigating table. 
+
+
+
+
+
+
+
+
+
 # Sprint Challenge: Node DB Sprint
 
 ## Description

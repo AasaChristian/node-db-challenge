@@ -31,9 +31,9 @@ router.get('/resources', (req, res) => {
 })
 
 router.post('/projects', (req, res) => {
-    const newproject = req.body
-    console.log(newproject)
-    db.addprojects(newproject)
+   const newProject = req.body
+   console.log(newProject)
+    db.addprojects(newProject)
     .then(project => {
         res.status(201).json(project);
     })
@@ -43,7 +43,7 @@ router.post('/projects', (req, res) => {
     })
 })
 
-router.get('/:id/projects', (req, res) => {
+router.get('/projects', (req, res) => {
     db.listprojects()
     .then(project => {
         res.json(project);

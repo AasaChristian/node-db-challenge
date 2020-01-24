@@ -8,7 +8,7 @@ exports.up = function(knex) {
         tbl.text('description')
         tbl.boolean('completed_project')
                 .notNullable()
-                .defaultTo('False')
+                .defaultTo("false")
     })
 
     .createTable("resource", tbl => {
@@ -33,7 +33,7 @@ exports.up = function(knex) {
         tbl.text('notes')
         tbl.boolean('completed_task')
                 .notNullable()
-                .defaultTo('False')
+                .defaultTo("false")
     })
 
     .createTable("projectsDetails", tbl => {
@@ -63,4 +63,4 @@ exports.down = function(knex) {
     .dropTableIfExists("task") 
     .dropTableIfExists("resource")
     .dropTableIfExists("projects")
-};
+}
